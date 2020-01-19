@@ -1,0 +1,13 @@
+To install virtual environment, use; python -m venv ven(this can be named anything )
+
+To actitate the virtual environment use; source  ven/Scripts/activate 
+
+To intall django in the venv use; pip install django
+
+To create a project use; django-admin.py startproject weather(weather-can be any name. it should be the name of your project)
+
+To run your server and start project use; python manage.py runserver 
+
+To actualy start building how site, we need an app. the app shoulp be created inside the project folder where we have the manage.py file.  
+
+To create an app,use ; python manage.py startapp lookup(lookup is the name u give to your app. it can be anyname)
