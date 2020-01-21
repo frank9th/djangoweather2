@@ -11,3 +11,8 @@ To run your server and start project use; python manage.py runserver
 To actualy start building how site, we need an app. the app shoulp be created inside the project folder where we have the manage.py file.  
 
 To create an app,use ; python manage.py startapp lookup(lookup is the name u give to your app. it can be anyname)
+
+To always add your code to git hub after connecting your repositry on github, use; 
+	1. git add . (hit d enter key)
+	2. git commit -am 'add your change name e.g (added comment to views.py)'
+	3. git push 
